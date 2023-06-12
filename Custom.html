@@ -1,0 +1,71 @@
+<html>
+<div class="topnav">
+	<a class="active" href="Main_Page.html">Home</a>
+	<a href="Contact_Info.html">Contact</a>
+	<a href="About.html">About</a>
+</div>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.topnav {background-color: #043c86; overflow: hidden;}
+.topnav a{float: left; color: white; text-align: center; padding: 14px 16px; font-size: 16px;}
+
+.topnav a:hover{background-color: #9ccbd5;color: black;}
+
+h1 {
+color: #083c86;
+text-align: center;
+font-size: 50px;
+font-style: italic;
+font-variant: small-caps;
+font-weight: bold;
+}
+
+p{
+text-align: center;	
+}
+
+ .container {   
+        padding: 25px; 
+		background-color: #9ccbd5;
+    } 
+	
+input[type=text], textarea {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 2px solid darkblue;   
+        box-sizing: border-box;   
+ } 
+ 
+ input[type=submit] {   
+       background-color: #083c86;   
+       width: 100%;  
+        color: black;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         } 
+
+ input[type=submit]:hover {   
+     background-color: #14cecc;
+color: black;      
+    } 
+</style>
+
+<h1>Custom gift information</h1>
+<p>Please enter your information and the information about the gift you want. The business will contact you about the gift and organize the details about delivery etc.</p>
+<p>Please note payment for custom gifts will only happen after the business has confirmed the finalised gift with you.</p>
+<form action="mailto:c.geddie@hotmail.com" method = "post" enctype="text/plain">
+<div class="container"> 
+Name:<br><input type="text" name="Name:"><br>
+Contact information:<br><input type="text" name="Contact"><br><br>
+What is your budget for this gift?<br><input type="text" name="Budget:"><br><br>
+Who is the gift for?<br><textarea name="Who the gift is for:" rows="10" cols="70"></textarea><br><br>
+What type of items would you like to include in the gift?<br><textarea name="Items to include in gift:" rows="10" cols="70"></textarea><br><br>
+<input type="submit" value="Send information">
+</div>
+</form>
+
+</html>
